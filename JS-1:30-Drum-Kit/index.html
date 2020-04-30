@@ -69,11 +69,11 @@
             audio.play();
             audio.currentTime = 0;
             audio.play();
+            if (!key) return;
             managestyle(key)
     }
 
-    function managestyle (key) {
-        if (!key) return;
+    function manageStyle (key) {
             const pressedKey = document.querySelector('.playing');
             key.classList.add('sound');
             key.classList.add('playing');
