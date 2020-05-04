@@ -123,11 +123,11 @@
   <script>
       
       function toggle () {
-          reducePrevExpandedFlex();
+          // reducePrevExpandedFlex();
           this.classList.toggle('open')
       }
 
-      function reducePrevExpandedFlex () {
+/*       function reducePrevExpandedFlex () {
           const elm = document.querySelectorAll('.panel');
           elm.forEach(elm1 => {
             if (elm1.classList.contains('open')) {
@@ -136,7 +136,8 @@
 
             }
           })
-      }
+      } 
+*/
 
       function toggleActive (e) {
           if (e.propertyName.includes('flex')) {
